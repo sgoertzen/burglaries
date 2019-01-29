@@ -7,7 +7,7 @@ class BossScene extends LevelParentScene {
         super.preload();
         this.load.tilemapTiledJSON("bossmap", "tiled/bosslevel.json");
         this.load.audio('bossmusic', 'assets/sound/Hair-Trigger.mp3');
-        this.load.image('treasure', 'assets/Reeses-PB-Cups.png');
+        this.load.image('treasure', 'assets/bacon.png');
         this.load.image('bullet', 'assets/bullet.png')
         this.load.spritesheet('boss', 'assets/DemonLord.png',
             {frameWidth: 200, frameHeight: 200});

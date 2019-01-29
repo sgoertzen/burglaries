@@ -7,7 +7,7 @@ class Level1Scene extends LevelParentScene {
         super.preload();
         this.load.tilemapTiledJSON("map", "tiled/mainlevel.json");
         this.load.audio('levelmusic', 'assets/sound/Written-in-the-Genes.mp3');
-        this.load.image('goal', 'assets/reese_package.png');
+        this.load.image('goal', 'assets/waffle.png');
     }
 
     create() {

@@ -5,7 +5,7 @@ class BossSceneIntro extends TextScene {
 
     preload() {
         this.load.image('demonframe', 'assets/DemonLordFrame.png');
-        this.load.audio('bossIntro', 'assets/sound/BossIntro.mp3');
+        this.load.audio('bossIntro', 'assets/sound/BossIntroForge.mp3');
     }
 
     create() {
@@ -15,16 +15,12 @@ class BossSceneIntro extends TextScene {
         this.bossVoice = this.sound.add('bossIntro', {loop: false});
         this.bossVoice.play();
 
-        var line1 = "Hahaha!";
-        var line2 = "I have lured you here to pay for your crimes.";
-        var line3 = "You are always taking credit for everyone else's work.  Well no more!";
-        var line4 = "Never again will you steal my Play of the Game!";
+        var line1 = "You think you ForgeLAN breakfast is saved?";
+        var line2 = "You may have gotten the waffles but the bacon is all mine!";
 
         this.time.delayedCall(100, this.displayText, [line1], this);
-        this.time.delayedCall(2000, this.displayText, [line2], this);
-        this.time.delayedCall(6100, this.displayText, [line3], this);
-        this.time.delayedCall(11600, this.displayText, [line4], this);
-        this.time.delayedCall(16000, this.nextScene, [], this);
+        this.time.delayedCall(3000, this.displayText, [line2], this);
+        this.time.delayedCall(7500, this.nextScene, [], this);
     }
 
     nextScene () {

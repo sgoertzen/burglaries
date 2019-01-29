@@ -71,7 +71,7 @@ class TitleScene extends Phaser.Scene {
         
         
         // Music
-        this.load.audio('bossIntro', 'assets/sound/BossIntro.mp3');
+        this.load.audio('bossIntro', 'assets/sound/BossIntroForge.mp3');
         this.load.audio('bossmusic', 'assets/sound/Hair-Trigger.mp3');
         this.load.audio('fairyIntro', 'assets/sound/FairyIntro.mp3');
         this.load.audio('levelmusic', 'assets/sound/Written-in-the-Genes.mp3');
@@ -80,9 +80,9 @@ class TitleScene extends Phaser.Scene {
         // Images
         this.load.image('demonframe', 'assets/DemonLordFrame.png');
         this.load.image('fairy', 'assets/fairy.png');
-        this.load.image('goal', 'assets/reese_package.png');
+        this.load.image('goal', 'assets/waffle.png');
         this.load.image("tiles", "assets/spritesheet.png");
-        this.load.image('treasure', 'assets/Reeses-PB-Cups.png');
+        this.load.image('treasure', 'assets/bacon.png');
         this.load.tilemapTiledJSON("bossmap", "tiled/bosslevel.json");
         this.load.tilemapTiledJSON("map", "tiled/mainlevel.json");
         

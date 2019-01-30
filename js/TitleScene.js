@@ -73,7 +73,7 @@ class TitleScene extends Phaser.Scene {
         // Music
         this.load.audio('bossIntro', 'assets/sound/BossIntroForge.mp3');
         this.load.audio('bossmusic', 'assets/sound/Hair-Trigger.mp3');
-        this.load.audio('fairyIntro', 'assets/sound/FairyIntro.mp3');
+        this.load.audio('fairyIntro', 'assets/sound/FairyIntroForge.mp3');
         this.load.audio('levelmusic', 'assets/sound/Written-in-the-Genes.mp3');
         this.load.audio('victorymusic', 'assets/sound/Ultimate-Victory.mp3');
                 
